@@ -9,8 +9,12 @@ body {
 a {
   color: #BFAF80;
   text-decoration: none;
+  padding-bottom: 2px;
 }
-h2 {
+a:hover {
+  text-decoration: underline;
+}
+h1 {
   color: #59323C;
   text-align: center;
 }
