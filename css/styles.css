@@ -1,0 +1,58 @@
+html {
+  font-family: 'Ubuntu Mono', monospace;
+}
+body {
+  background-color: #260126;
+  color: #BFAF80;
+  margin: 0;
+}
+a {
+  color: #BFAF80;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #59323C;
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 99vh;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 10px;
+}
+li:hover {
+  text-transform: underline;
+}
+.container {
+  padding: 1rem;
+  border: 1px solid #BFAF80;
+  border-radius: 3px;
+  min-width:20%;
+}
+
+@media screen and (max-width : 480px) {
+  .section {
+    flex-flow: column wrap;
+  }
+  .container {
+    margin-top: 15px;
+    width: 80%;
+    flex: 0 1 auto;
+  }
+  h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
