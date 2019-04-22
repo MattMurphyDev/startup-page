@@ -1,3 +1,6 @@
+html {
+  font-family: 'Ubuntu Mono', monospace;
+}
 body {
   background-color: #260126;
   color: #BFAF80;
@@ -8,7 +11,7 @@ a {
   text-decoration: none;
 }
 h2 {
-
+  color: #59323C;
 }
 section {
   display: flex;
@@ -26,7 +29,7 @@ li:hover {
 }
 .container {
   padding: 1rem;
-  border: 1px solid #8C6954;
+  border: 1px solid #BFAF80;
   border-radius: 3px;
   width:20%;
 }
