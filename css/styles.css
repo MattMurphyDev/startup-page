@@ -12,6 +12,7 @@ a {
 }
 h2 {
   color: #59323C;
+  text-align: center;
 }
 section {
   display: flex;
@@ -23,6 +24,9 @@ section {
 ul {
   list-style: none;
   padding: 0;
+}
+li {
+  padding-top: 10px;
 }
 li:hover {
   text-transform: underline;
